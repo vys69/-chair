@@ -3,7 +3,31 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Responsive Chair with Signs</title>
+        <!-- Primary Meta Tags -->
+        <title>$chair</title>
+        <link rel="icon" href="./assets/img/favicon.png" type="image/png">
+        <meta name="title" content="$chair" />
+        <meta name="description"
+            content="from your backyard to the blockchain" />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://metatags.io/" />
+        <meta property="og:title" content="$chair" />
+        <meta property="og:description"
+            content="from your backyard to the blockchain" />
+        <meta property="og:image"
+            content="./assets/img/metaimg.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://metatags.io/" />
+        <meta property="twitter:title" content="$chair" />
+        <meta property="twitter:description"
+            content="from your backyard to the blockchain" />
+        <meta property="twitter:image"
+            content="./assets/img/metaimg.png" />
+
         <script type="module"
             src="https://unpkg.com/three@0.132.2/build/three.module.js"></script>
         <script type="module"
@@ -281,7 +305,8 @@
                     src="./assets/models/chair.glb"></model-viewer>
             </div>
             <div class="audio-controls">
-                <div class="play-pause-button paused" onclick="playPauseAudio()"></div>
+                <div class="play-pause-button paused"
+                    onclick="playPauseAudio()"></div>
             </div>
         </div>
         <audio id="audio" src="./assets/sound.wav" autoplay loop></audio>
